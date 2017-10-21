@@ -61,7 +61,7 @@ Create a test: BowlingGameTest
 
 Create a class: BowlingGame
 
-Write the test until it fails >> Write the game until it passes
+Write the test until it fails >> Write the game until it passes >> Write test >> Write game ...
 
 Never write more code than required to make the test fail or the game
 to pass the test.
