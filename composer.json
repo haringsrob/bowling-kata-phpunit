@@ -1,14 +1,19 @@
 {
-    "name": "haringsrob/bowling-kata-phpunit",
-    "description": "The bowling kata starterkit with phpunit",
-    "type": "project",
-    "require": {
-        "phpunit/phpunit": "^6.4"
-    },
-    "authors": [
-        {
-            "name": "Harings Rob",
-            "email": "haringsrob@gmail.com"
-        }
-    ]
+  "name": "haringsrob/bowling-kata-phpunit",
+  "description": "The bowling kata starterkit with phpunit",
+  "type": "project",
+  "require": {
+    "phpunit/phpunit": "^6.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "BowlingKata\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Harings Rob",
+      "email": "haringsrob@gmail.com"
+    }
+  ]
 }
